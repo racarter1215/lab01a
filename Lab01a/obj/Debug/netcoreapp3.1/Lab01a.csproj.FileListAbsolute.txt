@@ -1,0 +1,13 @@
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\bin\Debug\netcoreapp3.1\Lab01a.exe
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\bin\Debug\netcoreapp3.1\Lab01a.deps.json
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\bin\Debug\netcoreapp3.1\Lab01a.runtimeconfig.json
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\bin\Debug\netcoreapp3.1\Lab01a.runtimeconfig.dev.json
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\bin\Debug\netcoreapp3.1\Lab01a.dll
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\bin\Debug\netcoreapp3.1\Lab01a.pdb
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\obj\Debug\netcoreapp3.1\Lab01a.csprojAssemblyReference.cache
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\obj\Debug\netcoreapp3.1\Lab01a.AssemblyInfoInputs.cache
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\obj\Debug\netcoreapp3.1\Lab01a.AssemblyInfo.cs
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\obj\Debug\netcoreapp3.1\Lab01a.csproj.CoreCompileInputs.cache
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\obj\Debug\netcoreapp3.1\Lab01a.dll
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\obj\Debug\netcoreapp3.1\Lab01a.pdb
+C:\Users\racar\codefellows\102\projects\lab01a\Lab01a\obj\Debug\netcoreapp3.1\Lab01a.genruntimeconfig.cache
