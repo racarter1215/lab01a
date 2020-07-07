@@ -1,0 +1,6 @@
+C:\Users\racar\codefellows\102\projects\lab01a\GetStartedDebugging\obj\Debug\netcoreapp3.1\GetStartedDebugging.csprojAssemblyReference.cache
+C:\Users\racar\codefellows\102\projects\lab01a\GetStartedDebugging\obj\Debug\netcoreapp3.1\GetStartedDebugging.AssemblyInfoInputs.cache
+C:\Users\racar\codefellows\102\projects\lab01a\GetStartedDebugging\obj\Debug\netcoreapp3.1\GetStartedDebugging.AssemblyInfo.cs
+C:\Users\racar\codefellows\102\projects\lab01a\GetStartedDebugging\obj\Debug\netcoreapp3.1\GetStartedDebugging.csproj.CoreCompileInputs.cache
+C:\Users\racar\codefellows\102\projects\lab01a\GetStartedDebugging\obj\Debug\netcoreapp3.1\GetStartedDebugging.dll
+C:\Users\racar\codefellows\102\projects\lab01a\GetStartedDebugging\obj\Debug\netcoreapp3.1\GetStartedDebugging.pdb
