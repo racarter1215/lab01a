@@ -16,7 +16,7 @@ namespace Lab01a
             }
             catch (Exception)
             {
-                Console.WriteLine("Caught a");
+                Console.WriteLine("Caught all");
             }
             //below ends this program with a console line to confirm
             finally
@@ -43,20 +43,25 @@ namespace Lab01a
                 //below converts the GetQuotient method call into a variable, also calls the method
                 decimal quotient = GetQuotient(product);
                 Console.WriteLine($"Your array size is: {intArray.Length}");
-                Console.WriteLine($"The numbers in the array are: ");
                 //below is a for loop that shows dynamically what exists within the numbers array (based on user input)
-                for (int i = 0; i <= intArray.Length; i++)
+                Console.WriteLine($"The numbers in the array are: ");
+                for (int i = 0; i < intArray.Length - 1; i++)
                 {
-                    Console.Write(intArray[i]);
+                    Console.Write($"{intArray[i]},");
                 }
-                Console.WriteLine($"The sum of the array is: {sum}");
-                Console.WriteLine($"{sum}");
-                Console.WriteLine($"{product}");
+                Console.WriteLine($"{intArray[intArray.Length - 1]}");
+                Console.WriteLine($"\nThe sum of the array is: {sum}");
+                Console.WriteLine($"{sum} * {product / sum} = {product}");
+                Console.WriteLine($"{product} / {product / quotient} = {quotient}");
             }
             //below is the error handler for this method
-            catch (Exception)
+            catch (FormatException e)
             {
-                Console.WriteLine("Caught b");
+                Console.WriteLine(e.Message);
+            }
+            catch (OverflowException e)
+            {
+                Console.WriteLine(e.Message);
             }
         }
         //below is a method that lets a user generate numbers in an array
@@ -77,11 +82,11 @@ namespace Lab01a
             int sum = intArray.Sum();
             if (sum <= 20)
                 {
-                throw (new Exception($"Value of {sum} is too low"));
+                    throw (new Exception($"Value of {sum} is too low"));
                 }
                 else
                 {
-                return sum;
+                    return sum;
                 }   
         }
         //below is a method that allows a user to multiply the length of their array by a number they choose that does not exceed the length of the array
@@ -95,9 +100,9 @@ namespace Lab01a
                 int product = sum * index;
                 return product;
             }
-            catch (Exception)
+            catch (IndexOutOfRangeException)
             {//below is a throw error handler that is caught by the Main method
-                throw;
+                throw (new Exception($"Size of array is too big"));
             }
         }
         //below is a method that allows a user to select a number to divide their eariler crafted product
@@ -112,11 +117,11 @@ namespace Lab01a
                 decimal quotient = decimal.Divide(product, userNumber);
                 return quotient;
             }
-            catch (Exception)
+            catch (DivideByZeroException)
             {
                 Console.WriteLine("Caught f");
                 //below is the return value if an error is caught to ensure that this method works
-                    return 0;
+                return 0;
             }
         }
     }
